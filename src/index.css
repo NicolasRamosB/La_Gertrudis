@@ -1,15 +1,24 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Caladea&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caladea:wght@400;700&display=swap');
+
+* {
   margin: 0;
   padding: 0;
+  border:0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Caladea', serif;
 }
 
 ::root{
-  --color-light: rgba(240, 243, 244, 0.6);
-  --color-primary-variant:rgb(0, 110, 92);
+  --color-light: rgba(212, 218, 210, 1);
+  --color-primary-variant:rgba(62, 92, 65, 1);
 
-  --bg-primary: rgb(68, 68, 163);
-  --color-bg-card: rgba(62, 97, 129, 0.616);
-  --color-bg-button: rgb(196, 163, 93);
+  --bg-primary: rgba(82, 117, 85, 1);
+  --yellow: rgba(227, 226, 176, 1);
+  --light-yellow: rgba(249, 248, 212, 1);
 
 
   --container-width-lg: 70%; 
