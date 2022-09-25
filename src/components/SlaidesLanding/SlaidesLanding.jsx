@@ -66,6 +66,10 @@ const SlaidesLanding = () => {
                     <SwiperSlide>
                         <img src="/assets/desayuno.jpg" alt="desayuno" />
                     </SwiperSlide>
+
+                    <SwiperSlide>
+                        <img src="/assets/pileta.jpg" alt="pileta" />
+                    </SwiperSlide>
                 </Swiper>
             </div>
 

@@ -14,9 +14,9 @@ const Navbar = () => {
 
           <NavLink href="/"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
           <NavLink to="/">Inicio</NavLink>
-          <a href="#about">Sobre Nosotros</a>
+          <a href="/#about">Sobre Nosotros</a>
           <NavLink to="/rooms">Habitaciones</NavLink>
-          <a href="#galery">Galeria</a>
+          <a href="/#galery">Galeria</a>
         </ul>
 
         <ul className='links__container' >
@@ -29,7 +29,7 @@ const Navbar = () => {
           <a href="/"> <HiOutlineMail /></a>
           <a href="/"> <FaWhatsapp /></a>
           <a href="/"> <FaInstagram /></a>
-          <a href="#contact" className='button__reserva'>Reservar</a>
+          <a href="/#contact" className='button__reserva'>Reservar</a>
         </ul>
 
 

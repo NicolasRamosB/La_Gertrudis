@@ -2,7 +2,7 @@ const rooms = [
     {
         id:1,
 
-        title: 'Habitacion',
+        title: 'Habitacion Magnolia',
         imgTitle:'Habitacion Matrimonial',
 
         img1:'',

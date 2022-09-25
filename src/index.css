@@ -10,6 +10,11 @@
   list-style: none;
   text-decoration: none;
   font-family: 'Caladea', serif;
+  
+}
+
+body {
+  background: rgba(62, 92, 65, 1);
 }
 
 ::root{
