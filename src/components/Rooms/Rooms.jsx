@@ -3,25 +3,28 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import 'swiper/css/autoplay';
 
-import rooms from '../../rooms'
+import './Rooms.css'
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper';
-import { BsPeople } from 'react-icons/bs';
-import { MdOutlineWash } from 'react-icons/md';
+
+import { FaWhatsapp } from 'react-icons/fa'
+
+import roomsJson from '../../roomsJson';
 
 
 const Rooms = () => {
   return (<>
-    <section>
-      <article>
+    <section id="rooms">
+      
 
         {
-          rooms.map((item) => {
+          roomsJson.map((item) => {
             return (
-              <article key={item.id} >
-                <div>
+              <article key={item.id} className="rooms__container" >
+                <div className="rooms__contain">
+                  
                   <Swiper
                     slidesPerView={1}
                     spaceBetween={1}
@@ -30,20 +33,27 @@ const Rooms = () => {
                       clickable: true,
                     }}
 
-                    modules={[Pagination, Navigation]} >
-                    <p>{item.imgTitle}</p>
+                    modules={[Pagination, Navigation]} 
+                    className="rooms__swiper">
+
+                    <p className="rooms__imgTitle">{item.imgTitle}</p>
+
                     <SwiperSlide>
                       <img src={item.img1} alt={item.id} />
                     </SwiperSlide>
+
                     <SwiperSlide>
                       <img src={item.img2} alt={item.id} />
                     </SwiperSlide>
+
                     <SwiperSlide>
                       <img src={item.img3} alt={item.id} />
                     </SwiperSlide>
+
                     <SwiperSlide>
                       <img src={item.img4} alt={item.id} />
                     </SwiperSlide>
+ 
                     <SwiperSlide>
                       <img src={item.img5} alt={item.id} />
                     </SwiperSlide>
@@ -51,9 +61,10 @@ const Rooms = () => {
 
                   </Swiper>
 
-                  <div>
-                    <h1>{item.title}</h1>
-                    <div>
+                  <div className="rooms__ container-description">
+
+                    <h1 className="rooms__name">{item.name}</h1>
+                    <div className="rooms__container-icons">
                       <i><img src="" alt="" /> <p>{item.personas}</p></i>
                       <i><img src="" alt="" /><p>{item.baño}</p></i>
                       <i><img src="" alt="" /><p>{item.ropa}</p></i>
@@ -62,7 +73,8 @@ const Rooms = () => {
                       <i><img src="" alt="" /><p>{item.ducha}</p></i>
                       <i><img src="" alt="" /><p>{item.secador}</p></i>
                     </div>
-                    <a href={item.wpp}></a>
+                    <a  className="button__consultar" href={item.wpp}> <FaWhatsapp/> Consultar</a>
+
                   </div>
 
                 </div>
@@ -74,7 +86,7 @@ const Rooms = () => {
         }
 
 
-      </article>
+      
     </section>
 
   </>
