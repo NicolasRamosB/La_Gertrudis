@@ -1,8 +1,6 @@
 import './Reviews.css'
 import ReviewItem from '../ReviewItem/ReviewItem';
-import { Button } from '@mui/material';
 import { Pagination, Navigation } from "swiper";
-import Breakpoint from "../Breakpoints/Breakpoints";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -45,8 +43,9 @@ const Reviews = () =>{
                     <SwiperSlide><ReviewItem image="rvimg5.png" name="Marianela Severino" date="Hace 10 meses" comment="Hermoso lugar para descansar, paisajes bellisimos, paz y mucha calidez de los dueños. El desayuno con vista a la cordillera exquisito... Disfrutamos mucho la experiencia... Un lugar para volver."/></SwiperSlide>
                 </Swiper>
             </div>
+            
             <div className="reviewButtons">
-                <a className="rvBtnCont" href="https://www.google.com/search?gs_ssp=eJzj4tZP1zcsKUo2MzUzNGC0UjWosDQzTzZOMTE2Mkg1M080N7QyqEg0SktNMTA1SU4yNLVISrL0kspJVEhPLSopKk3JLFZITixOVEhJBdK5BfkAgB4X-w&q=la+gertrudis+casa+de+campo&rlz=1C1CHBD_esPE858PE858&oq=la+gertrudis+casa+de+&aqs=chrome.1.69i57j46i19i39i175i199j69i59j0i390l2j69i60l2j69i61.3847j0j4&sourceid=chrome&ie=UTF-8#lrd=0x967c3d4320e67a71:0xa2fed054cb158bb9,3,,," target="_blank"> Escribe un comentario</a>
+                <a className="rvBtnCont" href="https://www.google.com/search?gs_ssp=eJzj4tZP1zcsKUo2MzUzNGC0UjWosDQzTzZOMTE2Mkg1M080N7QyqEg0SktNMTA1SU4yNLVISrL0kspJVEhPLSopKk3JLFZITixOVEhJBdK5BfkAgB4X-w&q=la+gertrudis+casa+de+campo&rlz=1C1CHBD_esPE858PE858&oq=la+gertrudis+casa+de+&aqs=chrome.1.69i57j46i19i39i175i199j69i59j0i390l2j69i60l2j69i61.3847j0j4&sourceid=chrome&ie=UTF-8#lrd=0x967c3d4320e67a71:0xa2fed054cb158bb9,3,,," target="_blank" rel="noopener noreferrer"> Escribe un comentario</a>
             </div>
         </div>
     )
