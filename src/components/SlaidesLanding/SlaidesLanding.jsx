@@ -2,13 +2,15 @@ import React from 'react'
 
 import './slaidesLanding.css'
 
-import { Autoplay } from 'swiper';
+import { Autoplay, FreeMode } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
+import "swiper/css/free-mode";
+
 
 const SlaidesLanding = () => {
     return (
@@ -16,7 +18,8 @@ const SlaidesLanding = () => {
 
             <div className="swiper__content">
                 <Swiper
-                    modules={[Autoplay]}
+                    modules={[Autoplay, FreeMode]}
+                    
 
                     breakpoints={{
                         600: {
@@ -26,16 +29,18 @@ const SlaidesLanding = () => {
 
                         1024: {
                             slidesPerView: 3,
-                            spaceBetween: 10,
+                            spaceBetween: 0,
                         },
                     }}
 
-                    loop
-                    speed={2000}
-                    grabCursor
+                    
                     freeMode
+                    loop
+                    speed={5000}
+                    
+                    
                     autoplay={{
-                        delay: 1,
+                        delay: 0,
                         disableOnInteraction: false
                     }} >
 

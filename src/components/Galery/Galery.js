@@ -16,8 +16,8 @@ const Galery = () =>{
         <div className="galeryContainer" >
             <Swiper
                 slidesPerView={1}
-                spaceBetween={10}
-                navigation={true}
+                spaceBetween={0}
+                
                 pagination={{
                 clickable: true,
                 }}
@@ -37,7 +37,7 @@ const Galery = () =>{
         <div className="galeryContainer">
             <Swiper
                 slidesPerView={1}
-                spaceBetween={10}
+                spaceBetween={0}
                 navigation={true}
                 pagination={{
                 clickable: true,

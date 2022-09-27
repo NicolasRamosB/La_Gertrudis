@@ -55,6 +55,7 @@
 .reviewButtons > .rvBtnCont, .reviewButtons > .rvBtnCont:hover{
     background: #E3E2B0;
     border-radius: 8px;
+    text-align: center;
     text-decoration: none;   
 }
 
@@ -64,5 +65,15 @@
     }
     .reviewButtons button, .reviewButtons > a{
         font-size: 16px;
+    }
+    
+}
+
+@media only screen and (max-width: 920px) {
+
+    .reviewButtons{
+        display: grid;
+        place-content: center;
+        place-items: center;
     }
 }

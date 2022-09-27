@@ -1,4 +1,14 @@
 {
+
+    "nav":{
+        "home":"Home",
+        "aboutWe":"About we",
+        "rooms":"Rooms",
+        "galery":"Galery",
+        "reserved":"Reserved"
+
+    },
+
     "banner":{
         "title":"¿Ready to book?",
         "subtitle": "Veni a descansar",

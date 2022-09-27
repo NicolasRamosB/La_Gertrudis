@@ -1,21 +1,23 @@
 import React from 'react'
 import iconsAbout from '../../iconsAbout'
+import SlaidesLanding from '../SlaidesLanding/SlaidesLanding'
 import './about.css'
 
 
 
 const About = () => {
-    return (
-        <main id="about" >
 
-            <section className='about__container'>
+    return (
+        <>
+            <section className='about__container' id="about">
                 <article className='about__article-header'>
                     <div className='about__contain'>
                         <h1>Sobre Nosotros</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Error odio explicabo soluta nesciunt? Ex voluptates reiciendis
-                            beatae velit laboriosam nihil quis. Itaque assumenda explicabo
-                            eveniet natus ab adipisci consequatur enim.</p>
+                        <p> Somos un proyecto sustentable y sostenible,
+                            siempre cuidando el medio ambiente,
+                            valorando actividades rurales como huerta,
+                            viñedos, vista de animales de granja entre otras experiencias que no te podes perder.
+                            Animate, veni a conocernos.</p>
                     </div>
 
                     <img src="/assets/familia.png" alt="pasto" />
@@ -26,12 +28,13 @@ const About = () => {
                 <article className='about_article-main'>
                     <div className='about__container-description'>
                         <h2>Nuestras Comodidades</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-                            omnis cupiditate asperiores nostrum modi, magni, delectus facilis ullam quam cum
-                            minus quis voluptatum debitis? Repudiandae quia deleniti amet et repellendus. Lorem
-                            ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam impedit magni dolorem
-                            ut recusandae dolores rerum voluptatibus excepturi quae!
-                            Ipsa animi rem in eveniet tempora reprehenderit aut atque nostrum voluptates!</p>
+                        <p>La Gertrudis es un lugar único,
+                            donde se valora a cada pasajero con un trato cordial,
+                            respetuoso y amigable.
+                            Nuestra idea es hacerte sentir como en tu propia casa priorizando tus necesidades y deseos,
+                            todo para que tu estadía se convierta en una experiencia inolvidable.
+                            Nos diferenciamos por la atención personalizada para cada uno de los se queden con nosotros.
+                            También por nuestras comidas y desayunos.</p>
                     </div>
 
                     <div className='about__container-icons'>
@@ -52,9 +55,11 @@ const About = () => {
                     </div>
 
                 </article>
+                <SlaidesLanding />
+
             </section>
 
-        </main>
+        </>
     )
 }
 

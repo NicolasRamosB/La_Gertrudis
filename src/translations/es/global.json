@@ -1,4 +1,14 @@
 {
+
+    "nav":{
+        "home":"Inicio",
+        "aboutWe":"Sobre nosotros",
+        "rooms":"Habitaciones",
+        "galery":"Galeria",
+        "reserved":"Reservar"
+
+    },
+
     "banner":{
         "title":"¿Ya hiciste tu reserva?",
         "subtitle": "Veni a descansar",

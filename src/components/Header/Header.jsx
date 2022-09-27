@@ -7,7 +7,6 @@ import Reviews from '../Reviews/Reviews';
 import Form from '../Form/Form';
 
 
-import SlaidesLanding from '../SlaidesLanding/SlaidesLanding'
 import './header.css'
 const Header = () => {
   return (
@@ -17,7 +16,6 @@ const Header = () => {
         </div>
       </header>
       <About />
-      <SlaidesLanding />
       <Reviews />
       <Banner />
       <Galery />
