@@ -53,8 +53,19 @@ html{
 
 
 
+.quotesRight{
+  position: relative;
+  align-self: flex-end;
+  font-size:140px;
 
-
+  z-index: 100;
+  left: 300px;
+  top: 90px;
+  color: rgba(137, 156, 110, 1);
+}
+.quotesRight img {
+  width: 20%;
+}
 
 
 @media screen and (max-width: 1024px){

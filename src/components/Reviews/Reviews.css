@@ -14,7 +14,7 @@
     font-size: 25px;
     line-height: 29px;
     color: #000000;
-    margin: 0 72px 48px;
+    margin: 0 72px -100px;
     text-align: left;
 }
 .reviewList{
@@ -51,12 +51,32 @@
 }
 .reviewButtons > .rvBtnText, .reviewButtons > .rvBtnText:hover {
     text-decoration-line: underline;
+    
 }
 .reviewButtons > .rvBtnCont, .reviewButtons > .rvBtnCont:hover{
     background: #E3E2B0;
     border-radius: 8px;
     text-align: center;
     text-decoration: none;   
+    transition: all .5s ease ;
+}
+.rvBtnCont:hover{
+    
+    background: #f5f4c4 !important;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.336) ;
+
+}
+
+
+
+.reviewContainer .reviewList .swiper .swiper-pagination-bullet {
+    padding: 10px;
+    
+    background:rgb(0, 0, 0);
+}
+
+.reviewContainer .reviewList .swiper .swiper-pagination{
+    top:95%;
 }
 
 @media only screen and (max-width: 641px) {

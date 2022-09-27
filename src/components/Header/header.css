@@ -11,3 +11,21 @@
 background: linear-gradient(0deg, rgba(212,218,210,1) 30%, rgba(255, 255, 255, 0) 40%);
     height: 60rem;
 }
+
+
+@media only screen and (max-width: 920px) {
+    .header__landing{
+       
+        height: 300px;
+        
+    }
+    .front_contain_img{
+        background: rgb(212,218,210);
+    background: linear-gradient(0deg, rgba(212,218,210,1) 30%, rgba(255, 255, 255, 0) 40%);
+        height: 25rem;
+    }
+}
+
+@media only screen and (max-width: 641px) {
+ 
+}

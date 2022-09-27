@@ -4,7 +4,7 @@ import './Form.css'
 
 const Form = () =>{
     return(
-        <div className="formSection">
+        <div className="formSection" id="contact">
             <div className="formContainer">
             <h3 className="formTitle">Envíanos tu consulta</h3>
             <form className="form">

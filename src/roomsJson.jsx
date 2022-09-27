@@ -2,8 +2,8 @@ const roomsJson = [
     {
         id:1,
 
-        name: 'Habitacion Magnolia',
-        imgTitle:'Habitacion Matrimonial',
+        name: 'Habitación Magnolia',
+        imgTitle:'Habitación Matrimonial',
 
         img1:'../assets/Magnolia/_JAP2452.jpg',
         img2:'../assets/Magnolia/_JAP2454.jpg',
@@ -19,15 +19,15 @@ const roomsJson = [
         ducha:'Ducha simple',
         secador:'Secador de pelo',
 
-        wpp:''
+        wpp:'https://wa.me/5492622576877?text=Hola!%20Quisiera%20consultar%20Precio%20y%20Disponibilidad%20sobre%20la%20Habitación%20Magnolia'
     },
 
 
 
     {
         id:2,
-        name: 'Habitacion Laurel',
-        imgTitle:'Habitacion Cuadruple',
+        name: 'Habitación Laurel',
+        imgTitle:'Habitación Cuadruple',
 
         img1:'../assets/Laurel/_JAP2434.jpg',
         img2:'../assets/Laurel/_JAP2438.jpg',
@@ -43,7 +43,7 @@ const roomsJson = [
         ducha:'Ducha simple',
         secador:'Secador de pelo',
 
-        wpp:''
+        wpp:'https://wa.me/5492622576877?text=Hola!%20Quisiera%20consultar%20Precio%20y%20Disponibilidad%20sobre%20la%20Habitación%20Laurel'
 
     },
 
@@ -52,8 +52,8 @@ const roomsJson = [
     {
         id:3,
 
-        name: 'Habitacion Tilo',
-        imgTitle:'Habitacion Matrimonial',
+        name: 'Habitación Tilo',
+        imgTitle:'Habitación Matrimonial',
 
         img1:'../assets/Tilo/_JAP2441.jpg',
         img3:'../assets/Tilo/_JAP2445.jpg',
@@ -69,15 +69,15 @@ const roomsJson = [
         ducha:'Ducha simple',
         secador:'Secador de pelo',
 
-        wpp:''
+        wpp:'https://wa.me/5492622576877?text=Hola!%20Quisiera%20consultar%20Precio%20y%20Disponibilidad%20sobre%20la%20Habitación%20Tilo'
 
     },
 
 
     {
         id:4,
-        name: 'Habitacion Glicia',
-        imgTitle:'Habitacion Matrimonial',
+        name: 'Habitación Glicia',
+        imgTitle:'Habitación Matrimonial',
 
         img1:'../assets/glicia/image27.png',
         img2:'../assets/glicia/image28.png',
@@ -93,7 +93,7 @@ const roomsJson = [
         ducha:'Hidromasaje',
         secador:'Secador de pelo',
 
-        wpp:''
+        wpp:'https://wa.me/5492622576877?text=Hola!%20Quisiera%20consultar%20Precio%20y%20Disponibilidad%20sobre%20la%20Habitación%20Glicia'
 
     },
 
@@ -101,8 +101,8 @@ const roomsJson = [
 
     {
         id:5,
-        name: 'Habitacion Granada',
-        imgTitle:'Habitacion Matrimonial',
+        name: 'Habitación Granada',
+        imgTitle:'Habitación Matrimonial',
 
         img1:'../assets/Granada/_JAP2481.jpg',
         img2:'../assets/Granada/_JAP2470.jpg',
@@ -118,7 +118,7 @@ const roomsJson = [
         ducha:'Hidromasaje',
         secador:'Secador de pelo',
 
-        wpp:''
+        wpp:'https://wa.me/5492622576877?text=Hola!%20Quisiera%20consultar%20Precio%20y%20Disponibilidad%20sobre%20la%20Habitación%20Granada'
 
 
     }

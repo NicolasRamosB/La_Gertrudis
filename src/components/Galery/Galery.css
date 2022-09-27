@@ -17,6 +17,9 @@
     color: black;
 
 }
+.galeryContainer .swiper .swiper-pagination{
+    top:95%;
+}
 
 .galeryContainer .swiper-slide{
     display: flex;

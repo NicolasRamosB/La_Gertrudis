@@ -31,8 +31,8 @@ const Navbar = () => {
         <nav>
           <ul className='nav__container'>
 
-            <NavLink href="/"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
-            <NavLink to="/">{t("nav.home")}</NavLink>
+            <NavLink to="/#"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
+            <NavLink to="/#">{t("nav.home")}</NavLink>
             <a href="/#about">{t("nav.aboutWe")}</a>
             <NavLink to="/rooms">{t("nav.rooms")}</NavLink>
             <a href="/#galery">{t("nav.galery")}</a>
@@ -46,9 +46,9 @@ const Navbar = () => {
 
             <div className='line'></div>
             <div className="navIcons">
-              <a href="/"> <HiOutlineMail /></a>
-              <a href="/"> <FaWhatsapp /></a>
-              <a href="/"> <FaInstagram /></a>
+              <a href="mailto:casadecampo.lagertrudis@gmail.com" target="_blank" rel="noopener noreferrer"> <HiOutlineMail /></a>
+              <a href="https://wa.me/5492622576877" target="_blank" rel="noopener noreferrer"> <FaWhatsapp /></a>
+              <a href="https://www.instagram.com/lagertrudis.sancarlos/?hl=es" target="_blank" rel="noopener noreferrer"> <FaInstagram /></a>
             </div>
             <a href="/#contact" className='button__reserva'>{t("nav.reserved")}</a>
           </ul>
@@ -62,8 +62,8 @@ const Navbar = () => {
         <nav className="responsiveNavMd">
           <ul className='nav__container'>
 
-            <NavLink href="/"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
-            <NavLink to="/">{t("nav.home")}</NavLink>
+            <NavLink to="/#"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
+            <NavLink to="/#">{t("nav.home")}</NavLink>
             <a href="/#about">{t("nav.aboutWe")}</a>
             <NavLink to="/rooms">{t("nav.rooms")}</NavLink>
             <a href="/#galery">{t("nav.galery")}</a>
@@ -77,9 +77,9 @@ const Navbar = () => {
 
             <div className='line'></div>
             <div className="navIcons">
-              <a href="/"> <HiOutlineMail /></a>
-              <a href="/"> <FaWhatsapp /></a>
-              <a href="/"> <FaInstagram /></a>
+              <a href="mailto:casadecampo.lagertrudis@gmail.com" target="_blank" rel="noopener noreferrer"> <HiOutlineMail /></a>
+              <a href="https://wa.me/5492622576877" target="_blank" rel="noopener noreferrer"> <FaWhatsapp /></a>
+              <a href="https://www.instagram.com/lagertrudis.sancarlos/?hl=es" target="_blank" rel="noopener noreferrer"> <FaInstagram /></a>
             </div>
             <a href="/#contact" className='button__reserva'>{t("nav.reserved")}</a>
           </ul>
@@ -97,8 +97,8 @@ const Navbar = () => {
             >
               <AiOutlineCloseCircle className="closeMenu" onClick={handleClick} />
               <ul className="navLinks">
-                <NavLink href="/"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
-                <NavLink to="/">{t("nav.home")}</NavLink>
+                <NavLink to="/#"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
+                <NavLink to="/#">{t("nav.home")}</NavLink>
                 <a href="/#about">{t("nav.aboutWe")}</a>
                 <NavLink to="/rooms">{t("nav.rooms")}</NavLink>
                 <a href="/#galery">{t("nav.galery")}</a>
@@ -112,9 +112,9 @@ const Navbar = () => {
 
                 <div className='line'></div>
                 <div className="navIcons">
-                  <a href="/"> <HiOutlineMail /></a>
-                  <a href="/"> <FaWhatsapp /></a>
-                  <a href="/"> <FaInstagram /></a>
+                  <a href="mailto:casadecampo.lagertrudis@gmail.com" target="_blank" rel="noopener noreferrer"> <HiOutlineMail /></a>
+                  <a href="https://wa.me/5492622576877" target="_blank" rel="noopener noreferrer"> <FaWhatsapp /></a>
+                  <a href="https://www.instagram.com/lagertrudis.sancarlos/?hl=es" target="_blank" rel="noopener noreferrer"> <FaInstagram /></a>
                 </div>
                 <a href="/#contact" className='button__reserva'>{t("nav.reserved")}</a>
               </ul>
@@ -122,7 +122,7 @@ const Navbar = () => {
             </div>
 
           }
-          <NavLink href="/"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
+          <NavLink to="/#"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
         </nav>
       </Breakpoint>
 
@@ -154,9 +154,9 @@ const Navbar = () => {
 
                 <div className='line'></div>
                 <div className="navIcons">
-                  <a href="/"> <HiOutlineMail /></a>
-                  <a href="/"> <FaWhatsapp /></a>
-                  <a href="/"> <FaInstagram /></a>
+                  <a href="mailto:casadecampo.lagertrudis@gmail.com" target="_blank" rel="noopener noreferrer"> <HiOutlineMail /></a>
+                  <a href="https://wa.me/5492622576877" target="_blank" rel="noopener noreferrer"> <FaWhatsapp /></a>
+                  <a href="https://www.instagram.com/lagertrudis.sancarlos/?hl=es" target="_blank" rel="noopener noreferrer"> <FaInstagram /></a>
                 </div>
                 <a href="/#contact" className='button__reserva'>{t("nav.reserved")}</a>
               </ul>
@@ -164,7 +164,7 @@ const Navbar = () => {
             </div>
 
           }
-          <NavLink href="/"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
+          <NavLink href="/#"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
         </nav>
       </Breakpoint>
 

@@ -60,6 +60,13 @@
 
 }
 
+.about__container-description p{
+    font-family: 'Nunito';
+    font-size:100%;
+
+}
+
+
 
 
 .about__container-icons{
@@ -76,23 +83,24 @@
 }
 
 
-.about__container-icons i {
+.about__container-icons span {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+  
    
 }
 
-.about__container-icons i p{
+.about__container-icons span p{
     padding-top: 10px;
     font-size:100%;
     text-align: center;
     width: 100%;
-    font-family: 'Nunito';
+    font-family: 'Caladea';
 }
 
-.about__container-icons i img{
+.about__container-icons span img{
     
     width: 60px;
 }
