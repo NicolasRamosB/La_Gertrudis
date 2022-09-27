@@ -79,11 +79,11 @@ const roomsJson = [
         name: 'Habitación Glicia',
         imgTitle:'Habitación Matrimonial',
 
-        img1:'../assets/glicia/image1.png',
-        img2:'../assets/glicia/image2.png',
-        img3:'../assets/glicia/image3.png',
-        img4:'../assets/glicia/image4.png',
-        img5:'../assets/glicia/image5.png',
+        img1:'../assets/glicia/image1.jpg',
+        img2:'../assets/glicia/image2.jpg',
+        img3:'../assets/glicia/image3.jpg',
+        img4:'../assets/glicia/image4.jpg',
+        img5:'../assets/glicia/image5.jpg',
         
         personas:'Para 2 personas',
         baño:'Baño Privado',
