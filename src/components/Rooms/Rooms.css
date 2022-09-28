@@ -1,25 +1,29 @@
 
 
 .container__title-rooms{
+    background: linear-gradient(0deg, rgba(212,218,210,1) 30%, rgba(255, 255, 255, 0) 40% );
+    height: 14.3rem;
     
-
-    background-position: center;
-    background-repeat: no-repeat;
     background: url(../../../public/bg-form.jpg);
-    background-size:60%;
+   
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
 }
 
 
 
 .title__rooms{
     
-    backdrop-filter:blur(3px);
+    
     
     text-align:start;
     padding: 100px;
     padding-left: 160px;
-    background:rgba(0, 0, 0, 0.137);
+    width: 100%;
     color: rgb(255, 251, 251);
+    backdrop-filter:blur(6px);
 }
 
 
@@ -32,7 +36,7 @@
     align-content: stretch;
     width: 100%;
     gap:1rem;
-    background:rgb(182, 182, 182);
+    background:rgba(212, 218, 210, 1);
     
     padding-top: 100px;
     padding-bottom: 100px;
@@ -219,8 +223,6 @@
 
     .rooms{
         display: grid;
-        
-    
         grid-template-columns: repeat(1, 1fr);
     }
 }
@@ -245,4 +247,18 @@
         bottom: 190px;
        
     }
+    
+   .title__rooms{
+        padding: 100px;
+        padding-left: 40px;
+       
+
+   }
+   .container__title-rooms{
+    
+   
+    background-size: 150%;
+    
+
+}
 }

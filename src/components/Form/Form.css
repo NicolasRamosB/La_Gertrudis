@@ -44,7 +44,27 @@
     font-weight: 800;
     font-size: 16px;
     line-height: 22px;
+    padding-left:10px;
+    padding-right:10px;
+    
 }
+.css-92b46w-MuiFormLabel-root-MuiInputLabel-root{
+    background: #535c3ebe;
+   
+    border-radius: 4px;
+    border: 2px solid rgba(62, 92, 65, 0.6);
+    backdrop-filter: blur(8px);
+    
+}
+.css-92b46w-MuiFormLabel-root-MuiInputLabel-root {
+    color: rgba(255, 255, 255, 0.767) !important;
+
+}
+.css-1dgbch7-MuiInputBase-root-MuiOutlinedInput-root  {
+    font-family: 'Nunito' !important;
+}
+
+
 .form > .btnForm {
     background: #E3E2B0;
     border-radius: 8px;

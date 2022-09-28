@@ -17,16 +17,20 @@ const Galery = () =>{
             <Swiper
                 slidesPerView={1}
                 spaceBetween={0}
-                
                 pagination={{
-                clickable: true,
-                }}
+                    clickable: true,
+                    }}
+            
                 modules={[Grid, Pagination, Navigation]}
                 className="mySwiper"
             >
                 {galeryImage.map(e=>{
                         return(
-                            <SwiperSlide ><GaleryItem image={e} key={e.id}/></SwiperSlide>
+                            
+                            <SwiperSlide key={e.id}>
+                                
+                                <GaleryItem image={e} />
+                            </SwiperSlide>
                         )
                     })
                     }
@@ -39,15 +43,13 @@ const Galery = () =>{
                 slidesPerView={1}
                 spaceBetween={0}
                 navigation={true}
-                pagination={{
-                clickable: true,
-                }}
+              
                 modules={[Grid, Pagination, Navigation]}
                 className="mySwiper"
             >
                 {galeryImage.map(e=>{
                         return(
-                            <SwiperSlide ><GaleryItem image={e} key={e.id}/></SwiperSlide>
+                            <SwiperSlide key={e.id}><GaleryItem image={e} /></SwiperSlide>
                         )
                     })
                     }
@@ -61,15 +63,13 @@ const Galery = () =>{
                 slidesPerView={2}
                 spaceBetween={10}
                 navigation={true}
-                pagination={{
-                clickable: true,
-                }}
+                
                 modules={[Grid, Pagination, Navigation]}
                 className="mySwiper"
             >
                 {galeryImage.map(e=>{
                         return(
-                            <SwiperSlide><GaleryItem image={e}  key={e.id}/></SwiperSlide>
+                            <SwiperSlide key={e.id}><GaleryItem image={e} /></SwiperSlide>
                         )
                     })
                     }

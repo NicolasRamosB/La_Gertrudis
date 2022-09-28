@@ -3,7 +3,7 @@ import './arrow.css'
 const Arrow = () => {
   return (<>
     <div className='arrow__container'>
-        <a href="/#"><img src="../flotante.png" alt="arrow" /></a>
+        <a href="#"><img src="../flotante.png" alt="arrow" /></a>
     </div>
   
   </>

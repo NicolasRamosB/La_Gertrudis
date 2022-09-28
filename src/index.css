@@ -25,30 +25,13 @@ body {
   --yellow: rgba(227, 226, 176, 1);
   --light-yellow: rgba(249, 248, 212, 1);
 
-
-  --container-width-lg: 70%; 
-  --container-width-md: 70%;
-  --container-width-sm: 80%;
-
-  --transition-hover: all 0.5s ease;
 }
 
 
-html{
-  scroll-behavior: smooth;
-  
-}
 
 
-.container{
-  width: var(--container-width-lg);
-  margin: 0 auto;
-}
 
 
-.text-light{
-  color: var(--color-light);
-}
 
 
 
@@ -59,26 +42,40 @@ html{
   font-size:140px;
 
   z-index: 100;
-  left: 300px;
+  left: 60%;
   top: 90px;
   color: rgba(137, 156, 110, 1);
 }
 .quotesRight img {
-  width: 20%;
+  width: 100px;
 }
 
 
-@media screen and (max-width: 1024px){
-  .container{
-      width: var(--container-width-md);
+@media only screen and (max-width: 920px) {
+
+  .quotesRight{
+
+    left: 60%;
+    top: 90px;
+
   }
-
-
+  .quotesRight img {
+    width: 100px;
+  }
+  
 }
 
-@media screen and (max-width: 600px){
-  .container{
-      width: var(--container-width-sm);
+
+@media only screen and (max-width: 640px) {
+
+  .quotesRight{
+
+    left: 60%;
+    top: 90px;
+
   }
- 
+  .quotesRight img {
+    width: 100px;
+  }
+  
 }

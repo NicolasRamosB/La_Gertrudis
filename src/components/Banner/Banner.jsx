@@ -1,4 +1,3 @@
-import { Button } from "@mui/material"
 import './Banner.css'
 const Banner = () => {
     return (

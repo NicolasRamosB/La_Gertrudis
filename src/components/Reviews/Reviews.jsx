@@ -1,6 +1,6 @@
 import './Reviews.css'
 import ReviewItem from '../ReviewItem/ReviewItem';
-import { Pagination, Navigation } from "swiper";
+import {  Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -16,9 +16,7 @@ const Reviews = () =>{
                     slidesPerView={1}
                     spaceBetween={5}
                     navigation={true}
-                    pagination={{
-                    clickable: true,
-                    }}
+                    
                     breakpoints={{
                     640: {
                         slidesPerView: 1,
@@ -33,7 +31,7 @@ const Reviews = () =>{
                         spaceBetween: 24,
                     },
                     }}
-                    modules={[Pagination, Navigation]}
+                    modules={[ Navigation]}
                     className="mySwiper"
                 >
                     <SwiperSlide><ReviewItem image="rvimg1.png" name="Victoria Russian" date="Hace 7 meses" comment="Claudia y Daniel, los dueños, son divinos, siempre con muy buena predisposición y personas de gran calidez. Comida casera hecha por el hijo Ramiro que es chef, un 10/10. Gracias por su hospitalidad y la experiencia de un fin de semana en una casa del 1900. Esteban, Andrea y Victoria."/></SwiperSlide>
