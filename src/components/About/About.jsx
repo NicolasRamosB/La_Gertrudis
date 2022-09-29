@@ -23,19 +23,13 @@ const About = () => {
                         <p>{t("about.textAboutUs")}</p>
                     </div>
 
-                    <img src="/assets/familia.png" alt="pasto" data-aos="fade-left"
-
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in-out"
-                        data-aos-mirror="true"
-                        data-aos-once="false"
-                        data-aos-anchor-placement="top-center" />
+                    <img src="/assets/familia.png" alt="pasto" data-aos="fade-up" />
 
 
                 </article>
 
                 <article className='about_article-main'  >
-                    <div className='about__container-description' data-aos="fade-left">
+                    <div className='about__container-description' data-aos="fade-right">
                         <h2>{t("about.titleOurAmenities")}</h2>
                         <p>{t("about.textOurAmenities")}</p>
                     </div>

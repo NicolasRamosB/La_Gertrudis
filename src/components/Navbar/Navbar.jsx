@@ -139,8 +139,8 @@ const Navbar = () => {
             >
               <AiOutlineCloseCircle className="closeMenu" onClick={handleClick} />
               <ul className="navLinks">
-                <NavLink href="/"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
-                <NavLink to="/">{t("nav.home")}</NavLink>
+                <NavLink href="/#"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
+                <NavLink to="/#">{t("nav.home")}</NavLink>
                 <a href="/#about">{t("nav.aboutWe")}</a>
                 <NavLink to="/rooms">{t("nav.rooms")}</NavLink>
                 <a href="/#galery">{t("nav.galery")}</a>
