@@ -1,17 +1,64 @@
 {
+    "rooms":{
+        "title":"Our Rooms",
+        "titleRooms":{
+            "magnolia":"Magnolia Room",
+            "laurel":"Laurel Room",
+            "tilo":"Tilo Room",
+            "glicina":"Glicina Room",
+            "granada":"Granada Room"
+        },
+        "roomsSubTitle":{
+            "matri":"Matrimonial Room",
+            "quad":"Quad Room"
+        },
+        "contact":"Contact Us",
+        "dryer":"Hair Dryer",
+        "heating":"Heating",
+        "towels":"White sheets",
+        "person":"2-person",
+        "person4":"4-person",
+        "bath":{
+            "private":"Private Bathroom",
+            "shared":"Shared Bathroom"
+        },
+        "shower":{
+            "hydro":"Hydromassage Shower",
+            "simple":"Simple Shower"
+        }
+        
+    },
+
+
+    "about":{
+        "titleAboutUs":"About Us",
+        "textAboutUs":"La Gertrudis is a unique place, where each visitor is valued with a cordial, respectful and friendly treatment. Our goal is to make you feel at home, prioritizing your needs and wishes, everything so that your stay becomes an unforgettable experience",
+        
+        "titleOurAmenities":"Our Amenities",
+        "textOurAmenities":"We differentiate ourselves by personalized attention for each guest who stay with us. Also for our meals and breakfasts. We are a sustainable project, always taking care of the environment and valuing rural activities such as orchards, vineyards, sight of farm animals among other experiences that you cannot miss. Come visit us.",
+        
+        "sheets":"White sheets",
+        "breakfast":"Regional Breakfast included",
+        "heating":"Heating",
+        "fireplace":"Wood Fireplace",
+        "swim":"Swimming Pool (Summer)",
+        "pingPong":"Ping Pong",
+        "tv":"Satelital TV",
+        "farm":"Farm visit"
+    },
 
     "nav":{
         "home":"Home",
-        "aboutWe":"About we",
+        "aboutWe":"About Us",
         "rooms":"Rooms",
-        "galery":"Galery",
-        "reserved":"Reserved"
+        "galery":"Gallery",
+        "book":"Book"
 
     },
 
     "banner":{
         "title":"¿Ready to book?",
-        "subtitle": "Veni a descansar",
+        "subtitle": "Come to relax",
         "btnRoom":"Check rooms",
         "btnBook":"Book"
     },
@@ -23,7 +70,8 @@
         "title":"Send us a message",
         "name":"Name",
         "mail":"E-Mail",
-        "message":"Message"
+        "message":"Message",
+        "send":"Send message"
     },
     "reviews":{
         "title":"What our guests said about us",

@@ -9,7 +9,10 @@ import "swiper/css/grid";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import './Galery.css'
+
+
 const Galery = () =>{
+
     return(
         <>
         <Breakpoint at="xs">

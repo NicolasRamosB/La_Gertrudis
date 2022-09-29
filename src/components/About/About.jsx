@@ -1,51 +1,46 @@
 import React from 'react'
-import iconsAbout from '../../iconsAbout'
+
 import SlaidesLanding from '../SlaidesLanding/SlaidesLanding'
 import './about.css'
-
+import 'animate.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import IconsAbout from './IconsAbout/IconsAbout';
+import { useTranslation } from 'react-i18next'
 
 
 const About = () => {
+    AOS.init();
+
+  const [t, i18n] = useTranslation("global");
 
     return (
         <>
             <section className='about__container' id="about">
-                <article className='about__article-header'>
-                    <div className='about__contain'>
-                        <h1>Sobre Nosotros</h1>
-                        <p> La Gertrudis es un lugar único, donde se valora a cada pasajero con un trato cordial, respetuoso y amigable. Nuestra idea es hacerte sentir como en tu propia casa priorizando tus necesidades y deseos, todo para que tu estadía se convierta en una experiencia inolvidable.</p>
+                <article className='about__article-header '>
+                    <div className='about__contain' data-aos="fade-right" >
+                        <h1>{t("about.titleAboutUs")}</h1>
+                        <p>{t("about.textAboutUs")}</p>
                     </div>
-                    
-                    <img src="/assets/familia.png" alt="pasto" />
+
+                    <img src="/assets/familia.png" alt="pasto" data-aos="fade-left"
+
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false"
+                        data-aos-anchor-placement="top-center" />
 
 
                 </article>
 
-                <article className='about_article-main'>
-                    <div className='about__container-description'>
-                        <h2>Nuestras Comodidades</h2>
-                        <p>Nos diferenciamos por la atención personalizada para cada uno de los se queden con nosotros. También por nuestras comidas y desayunos.
-Somos un proyecto sustentable y sostenible, siempre cuidando el medio ambiente, valorando actividades rurales como huerta, viñedos, vista de animales de granja entre otras experiencias que no te podes perder.
-<br/>
-Animate, veni a conocernos.</p>
+                <article className='about_article-main'  >
+                    <div className='about__container-description' data-aos="fade-left">
+                        <h2>{t("about.titleOurAmenities")}</h2>
+                        <p>{t("about.textOurAmenities")}</p>
                     </div>
 
-                    <div className='about__container-icons'>
-
-                        {
-                            iconsAbout.map((item) => {
-                                return (
-                                    <span key={item.id} >
-                                        <img src={item.img} alt={item.id} />
-                                        <p>{item.title}</p>
-                                    </span>
-
-                                )
-                            })
-                        }
-
-
-                    </div>
+                    <IconsAbout/>
 
                 </article>
                 <SlaidesLanding />
@@ -53,7 +48,11 @@ Animate, veni a conocernos.</p>
             </section>
 
         </>
+
     )
+
+
+
 }
 
 export default About

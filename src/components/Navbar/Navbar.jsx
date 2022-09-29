@@ -50,7 +50,7 @@ const Navbar = () => {
               <a href="https://wa.me/5492622576877" target="_blank" rel="noopener noreferrer"> <FaWhatsapp /></a>
               <a href="https://www.instagram.com/lagertrudis.sancarlos/?hl=es" target="_blank" rel="noopener noreferrer"> <FaInstagram /></a>
             </div>
-            <a href="/#contact" className='button__reserva'>{t("nav.reserved")}</a>
+            <a href="/#contact" className='button__reserva'>{t("nav.book")}</a>
           </ul>
         </nav>
       </Breakpoint>
@@ -81,7 +81,7 @@ const Navbar = () => {
               <a href="https://wa.me/5492622576877" target="_blank" rel="noopener noreferrer"> <FaWhatsapp /></a>
               <a href="https://www.instagram.com/lagertrudis.sancarlos/?hl=es" target="_blank" rel="noopener noreferrer"> <FaInstagram /></a>
             </div>
-            <a href="/#contact" className='button__reserva'>{t("nav.reserved")}</a>
+            <a href="/#contact" className='button__reserva'>{t("nav.book")}</a>
           </ul>
         </nav>
       </Breakpoint>
@@ -116,7 +116,7 @@ const Navbar = () => {
                   <a href="https://wa.me/5492622576877" target="_blank" rel="noopener noreferrer"> <FaWhatsapp /></a>
                   <a href="https://www.instagram.com/lagertrudis.sancarlos/?hl=es" target="_blank" rel="noopener noreferrer"> <FaInstagram /></a>
                 </div>
-                <a href="/#contact" className='button__reserva'>{t("nav.reserved")}</a>
+                <a href="/#contact" className='button__reserva'>{t("nav.book")}</a>
               </ul>
 
             </div>
@@ -158,7 +158,7 @@ const Navbar = () => {
                   <a href="https://wa.me/5492622576877" target="_blank" rel="noopener noreferrer"> <FaWhatsapp /></a>
                   <a href="https://www.instagram.com/lagertrudis.sancarlos/?hl=es" target="_blank" rel="noopener noreferrer"> <FaInstagram /></a>
                 </div>
-                <a href="/#contact" className='button__reserva'>{t("nav.reserved")}</a>
+                <a href="/#contact" className='button__reserva'>{t("nav.book")}</a>
               </ul>
 
             </div>

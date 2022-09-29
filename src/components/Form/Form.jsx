@@ -5,7 +5,10 @@ import Swal from 'sweetalert2'
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
+import { useTranslation } from 'react-i18next'
+
 const Form = () =>{
+  const [t, i18n] = useTranslation("global");
 
     const form = useRef();
 
@@ -45,11 +48,11 @@ const Form = () =>{
     return(
         <div className="formSection" id="contact">
             <div className="formContainer">
-            <h3 className="formTitle">Envíanos tu consulta</h3>
+            <h3 className="formTitle">{t("form.title")}</h3>
             <form ref={form} onSubmit={sendEmail} className="form">
                 <TextField 
                     id="outlined-basic" 
-                    label="Nombre y Apellido" 
+                    label={t("form.name")} 
                     variant="outlined" 
                     className="formInput"
                     color="grey"
@@ -59,7 +62,7 @@ const Form = () =>{
                 />
                 <TextField 
                     id="outlined-basic" 
-                    label="Correo electrónico" 
+                    label={t("form.mail")} 
                     variant="outlined" 
                     className="formInput"
                     color="grey"
@@ -70,7 +73,7 @@ const Form = () =>{
                 />
                 <TextField
                     id="outlined-textarea"
-                    label="Ingresa tu consulta"
+                    label={t("form.message")} 
                     multiline
                     rows={8}
                     className="formTxt"
@@ -79,7 +82,7 @@ const Form = () =>{
                     required={true}
 
                 />
-                <Button type="submit" variant="contained" className="btnForm">Enviar</Button>
+                <Button type="submit" variant="contained" className="btnForm">{t("form.send")}</Button>
             </form>
             </div>
         </div>

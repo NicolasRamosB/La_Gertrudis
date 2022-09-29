@@ -1,11 +1,57 @@
 {
+    "rooms":{
+        "title":"Nuestras habitaciones",
+        "titleRooms":{
+            "magnolia":"Habitación Magnolia",
+            "laurel":"Habitación Laurel",
+            "tilo":"Habitación Tilo",
+            "glicina":"Habitación Glicina",
+            "granada":"Habitación Granada"
+        },
+        "roomsSubTitle":{
+            "matri":"Habitación Matrimonial",
+            "quad":"Habitación Cuadruple"
+        },
+        "contact":"Consultar",
+        "dryer":"Secador de pelo",
+        "heating":"Calefacción",
+        "towels":"Ropa de blanco",
+        "person":"Para 2 personas",
+        "person4":"Para 4 personas",
+        "bath":{
+            "private":"Baño Privado",
+            "shared":"Baño compartido"
+        },
+        "shower":{
+            "hydro":"Hidromasaje",
+            "simple":"Ducha simple"
+        }
+        
+    },
+
+
+    "about":{
+        "titleAboutUs":"Sobre Nosotros",
+        "textAboutUs":"La Gertrudis es un lugar único, donde se valora a cada pasajero con un trato cordial, respetuoso y amigable. Nuestra idea es hacerte sentir como en tu propia casa priorizando tus necesidades y deseos, todo para que tu estadía se convierta en una experiencia inolvidable.",
+       
+        "titleOurAmenities":"Nuestras Comodidades",
+        "textOurAmenities":"Nos diferenciamos por la atención personalizada para cada huesped que se hospede. También por nuestras comidas y desayunos. Somos un proyecto sustentable y sostenible, siempre cuidando el medio ambiente, valorando actividades rurales como huerta, viñedos, vista de animales de granja entre otras experiencias que no te podes perder. Animate, veni a conocernos.",
+        
+        "sheets":"Ropa de blanco",
+        "breakfast":"Desayuno campero incluido",
+        "heating":"Calefacción",
+        "fireplace":"Calefacción a leña",
+        "swim":"Pileta (Verano)",
+        "tv":"TV Satelital ", 
+        "farm":"Visitas a la granja"
+    },
 
     "nav":{
         "home":"Inicio",
         "aboutWe":"Sobre nosotros",
         "rooms":"Habitaciones",
         "galery":"Galeria",
-        "reserved":"Reservar"
+        "book":"Reservar"
 
     },
 
@@ -23,7 +69,8 @@
         "title":"Envíanos tu consulta",
         "name":"Nombre",
         "mail":"Correo electrónico",
-        "message":"Ingresa tu consulta"
+        "message":"Ingresa tu consulta",
+        "send":"Enviar"
     },
     "reviews":{
         "title":"Lo que nuestros huéspedes dicen de nosotros",
@@ -47,7 +94,7 @@
             "date":"Hace 10 meses",
             "comment":"Hermoso lugar para descansar, paisajes bellisimos, paz y mucha calidez de los dueños. El desayuno con vista a la cordillera exquisito... Disfrutamos mucho la experiencia... Un lugar para volver."
         },
-        "btnMore":"Ver más",
+        
         "btnWrite":"Escribe un comentario"
     }
 }
