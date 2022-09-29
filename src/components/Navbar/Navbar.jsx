@@ -7,7 +7,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import Breakpoint from "../Breakpoints/Breakpoints";
 import { useState } from 'react'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
-
+import { HashLink } from 'react-router-hash-link'
 import { useTranslation } from 'react-i18next'
 
 import 'animate.css';
@@ -33,9 +33,9 @@ const Navbar = () => {
 
             <NavLink to="/#"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
             <NavLink to="/#">{t("nav.home")}</NavLink>
-            <a href="/#about">{t("nav.aboutWe")}</a>
+            <HashLink smooth to="/#about">{t("nav.aboutUs")}</HashLink >
             <NavLink to="/rooms">{t("nav.rooms")}</NavLink>
-            <a href="/#galery">{t("nav.galery")}</a>
+            <HashLink smooth to="/#gallery">{t("nav.gallery")}</HashLink >
           </ul>
 
           <ul className='links__container' >
@@ -64,9 +64,9 @@ const Navbar = () => {
 
             <NavLink to="/#"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
             <NavLink to="/#">{t("nav.home")}</NavLink>
-            <a href="/#about">{t("nav.aboutWe")}</a>
+            <HashLink smooth to="/#about">{t("nav.aboutUs")}</HashLink >
             <NavLink to="/rooms">{t("nav.rooms")}</NavLink>
-            <a href="/#galery">{t("nav.galery")}</a>
+            <HashLink smooth to="/#gallery">{t("nav.gallery")}</HashLink >
           </ul>
 
           <ul className='links__container' >
@@ -99,9 +99,9 @@ const Navbar = () => {
               <ul className="navLinks">
                 <NavLink to="/#"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
                 <NavLink to="/#">{t("nav.home")}</NavLink>
-                <a href="/#about">{t("nav.aboutWe")}</a>
+                <HashLink smooth to="/#about">{t("nav.aboutUs")}</HashLink >
                 <NavLink to="/rooms">{t("nav.rooms")}</NavLink>
-                <a href="/#galery">{t("nav.galery")}</a>
+                <HashLink smooth to="/#gallery">{t("nav.gallery")}</HashLink >
               </ul>
 
               <ul className='links__container' >
@@ -120,7 +120,6 @@ const Navbar = () => {
               </ul>
 
             </div>
-
           }
           <NavLink to="/#"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
         </nav>
@@ -141,9 +140,9 @@ const Navbar = () => {
               <ul className="navLinks">
                 <NavLink href="/#"><img src="/assets/Logo_LaGertrudis.png" alt="logo" /></NavLink>
                 <NavLink to="/#">{t("nav.home")}</NavLink>
-                <a href="/#about">{t("nav.aboutWe")}</a>
+                <HashLink smooth to="/#about">{t("nav.aboutUs")}</HashLink >
                 <NavLink to="/rooms">{t("nav.rooms")}</NavLink>
-                <a href="/#galery">{t("nav.galery")}</a>
+                <HashLink smooth to="/#gallery">{t("nav.gallery")}</HashLink >
               </ul>
 
               <ul className='links__container' >

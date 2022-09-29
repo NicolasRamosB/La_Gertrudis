@@ -27,7 +27,7 @@ const GaleryItem = ({image}) => {
   const handleClose = () => setOpen(false);
 
   return (
-    <div id="galery"> 
+    <div id="gallery"> 
       <Button className="galeryImg" onClick={handleOpen}><img src={`./${image}`} alt='imagen' data-aos="fade-up"/></Button>
       <Modal
         open={open}

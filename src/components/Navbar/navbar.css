@@ -155,7 +155,7 @@ nav{
 .navMenu{
     position: absolute;
     width: 250px;
-    height: 80%;
+    height: 100%;
     top: 100px;
     left: 0;
     background-color: rgb(62, 92, 65);

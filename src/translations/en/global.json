@@ -41,17 +41,16 @@
         "breakfast":"Regional Breakfast included",
         "heating":"Heating",
         "fireplace":"Wood Fireplace",
-        "swim":"Swimming Pool (Summer)",
-        "pingPong":"Ping Pong",
+        "swim":"Swimming Pool (Summer)",  
         "tv":"Satelital TV",
         "farm":"Farm visit"
     },
 
     "nav":{
         "home":"Home",
-        "aboutWe":"About Us",
+        "aboutUs":"About Us",
         "rooms":"Rooms",
-        "galery":"Gallery",
+        "gallery":"Gallery",
         "book":"Book"
 
     },

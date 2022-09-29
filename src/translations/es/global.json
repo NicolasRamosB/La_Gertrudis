@@ -48,9 +48,9 @@
 
     "nav":{
         "home":"Inicio",
-        "aboutWe":"Sobre nosotros",
+        "aboutUs":"Sobre nosotros",
         "rooms":"Habitaciones",
-        "galery":"Galeria",
+        "gallery":"Galería",
         "book":"Reservar"
 
     },
